@@ -1,0 +1,27 @@
+.formData{
+    margin: 20px;
+    padding: 10px;
+    color: red;
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 150vh;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.formData label{
+    display: block;
+}
+.formData input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.formData button[type="submit"]{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
